@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Kanit:wght@400;600&display=swap');
+
+*{
+  font-family: 'Archivo Black', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.top-page{
+  padding-top: 50px;
+}
+
+#title{
+  text-align: center;
+  color: #ff00a0;
+  padding-bottom: 50px;
+}
+
+#subtitles{
+  text-align: center;
+}
+
+.col{
+  margin-top: 50px;
+  float: left;
+  width: calc((100% - 40px) / 3);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: black;
+}
+
+.clearfix:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col:nth-child(3){
+  margin-right: 0;
+
+}
+.photo{
+  width: 100px;
+  float: left;
+
+}
+
+.title-image{
+  font-size: 17px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.work{
+  font-size: 13px;
+}
+
+.email{
+  font-size: 10px;
+  color: #52d7ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+.debug .container{
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.debug .col{
+  border: 2px solid cornflowerblue;
+  min-height: 80px;
+  padding: 10px;
+}
