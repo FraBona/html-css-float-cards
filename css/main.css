@@ -33,6 +33,7 @@
   margin-right: 10px;
   margin-bottom: 10px;
   background-color: black;
+  box-shadow: 20px 20px 50px grey;
 }
 
 .clearfix:after{
@@ -66,7 +67,18 @@
   color: #52d7ff;
 }
 
+.under-page{
+  margin: 0 auto;
+  background-color: #272727;
+  width: 100%;
+  padding: 30px;
+  margin-top: 70px;
+}
 
+.under-page > p{
+  text-align: center;
+  color: #b8b8b8;
+}
 
 
 
